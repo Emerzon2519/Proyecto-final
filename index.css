@@ -1,0 +1,128 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+    list-style: none;
+}
+
+h4 {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+
+
+a:hover {
+    color: rgb(63, 63, 146) !important;
+}
+
+.section-principal {
+    background-image: url(./img/bryan-goff-f7YQo-eYHdM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+
+
+
+.altura {
+    height: 500px;
+}
+
+.img1 {
+    width: 400px;
+    height: 500px;
+}
+
+.altura2 {
+    height: 600px;
+}
+
+.img2 {
+    width: 600px;
+    height: 500px;
+}
+
+.img3 {
+    width: 500px;
+    height: 400px;
+}
+
+.css3 {
+    width: 200px;
+    height: 230px;
+}
+
+.botstrap {
+    width: 210px;
+    height: 220px;
+}
+
+.sass {
+    width: 200px;
+    height: 200px;
+}
+
+.git {
+    width: 200px;
+    height: 200px;
+}
+
+.github {
+    width: 200px;
+    height: 200px;
+}
+
+i {
+    cursor: pointer;
+}
+
+i:hover {
+    color: aqua;
+}
+
+
+
+@media (max-width:577px) {
+    .tecnologia {
+        margin-top: 300px;
+    }
+
+    .presentacion1 {
+        margin-top: 300px;
+    }
+}
+
+@media (min-width:578px) {
+    .tecnologia {
+        margin-top: 300px;
+    }
+
+    .presentacion1 {
+        margin-top: 300px;
+    }
+
+    .img2 {
+        width: 450px;
+    }
+    
+    .img3 {
+        width: 450px;
+    }
+}
+
+@media (min-width:992px) {
+    .tecnologia {
+        margin-top: 50px;
+    }
+
+    .presentacion1 {
+        margin-top: 0px;
+    }
+}
